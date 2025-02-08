@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/about.png";
 import { ABOUT_TEXT } from "../constants/index";
 import { motion } from "framer-motion";
 
@@ -26,9 +26,9 @@ const About = () => {
               className="rounded-2xl"
               src={aboutImg}
               alt="about"
+              style={{ width: "50%", height: "50%" }}
               whileHover={{
                 scale: 1.04,
-                boxShadow: "0px 10px 30px rgba(228, 90, 228, 0.5)",
               }}
               transition={{ duration: 0.3 }}
             />
